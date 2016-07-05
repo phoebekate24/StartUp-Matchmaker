@@ -1,0 +1,138 @@
+.container{
+	width: 1024px;
+	margin: auto;
+}
+
+header{
+	background-color: black;
+	padding: 10px;
+	border-bottom: #ffff1a 3px solid;
+}
+
+#logo{
+	color: #ffff1a;
+	font-family: 'Karma', serif;
+	font-weight: 700;
+	font-size: 28px;
+	text-align: left;
+}
+
+header nav a{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;}
+
+.emphasis{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.title_bar{
+	background-color: #bfbfbf;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.title_bar del{
+	color: #808080;
+}
+
+.title_bar ins{
+	text-decoration: underline;
+	text-decoration-color: #ffff1a;
+}
+
+.main_container{
+	background-color: white;
+	column-count: 3;
+	column-gap: 5px;
+}
+
+.main_container h2{
+	font-family: 'Karma', serif;
+	font-size: 20px;
+	color: black;
+}
+
+.main_container p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+.button{
+	background-color: #bfbfbf;
+	height: 30px;
+	width: 50px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+.side_bar {
+	background-image: url("../images/coworking.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1024px;
+    height: 600px;
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.side_bar article{
+	width: 200px;
+	height: 250px;
+	background-color: #ffffff;
+	border: 1px black solid;
+	padding: 20px 10px 10px 10px;
+	margin: 20px;
+}
+
+.side_bar h2{
+	font-family: 'Karma', serif;
+	font-size: 30px;
+	color: black;
+}
+
+.side_bar p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+#yellow_button{
+	background-color: #ffff1a;
+	height: 30px;
+	width: 50px;
+	margin-top: 50px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 16px;
+	color: black;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
